@@ -8,6 +8,7 @@ reset upload keystore file after loss and update on google play
 
 
 3- keytool -export -rfc -keystore [JKS_NAME.jks] -alias [JKS_KEY_ALIAS] -file [PEM_NAME.pem]
+
    ex: keytool -export -rfc -keystore key0.jks -alias key0 -file upload.pem 
 
 4- link Google Support Form :
